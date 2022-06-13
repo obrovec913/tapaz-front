@@ -1,0 +1,33 @@
+@violet: #646a94;
+
+@font-face {
+  font-family: 'noto_semi_bold';
+  src: url('../assets/fonts/NotoSans-SemiBold.ttf');
+  src: url('../assets/fonts/NotoSans-SemiBold.ttf?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/NotoSans-SemiBold.ttf') format('woff'),
+       url('../assets/fonts/NotoSans-SemiBold.ttf') format('truetype'),
+       url('../assets/fonts/NotoSans-SemiBold.ttf') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_regular';
+  src: url('../assets/fonts/NotoSans-Regular.ttf');
+  src: url('../assets/fonts/NotoSans-Regular.ttf?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/NotoSans-Regular.ttf') format('woff'),
+       url('../assets/fonts/NotoSans-Regular.ttf') format('truetype'),
+       url('../assets/fonts/NotoSans-Regular.ttf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: noto_regular;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+}
+
+.notie-textbox.notie-alert.notie-container {
+  z-index: 1000;
+}
